@@ -3,7 +3,9 @@
   <title>PHP Test</title>
  </head>
  <body>
- <?php echo '<p>Hello World</p>'; 
+ <?php 
+ echo 'eejeje'
+ echo '<p>Hello World</p>'; 
 define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
 define('DB_PORT',getenv('OPENSHIFT_MYSQL_DB_PORT')); 
 define('DB_USER',getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
